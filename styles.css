@@ -1,0 +1,104 @@
+@import url("styles/header.css");
+
+:root {
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --branco: #E5E5E5;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F7F7F7;
+}
+
+body {
+    background-color: var(--azul);
+    
+}
+
+
+/*
+.cabecalho {
+    position: relative;
+    top: -50px;
+    left: -10%;
+display: inline-block;
+}
+
+.cabecalho__mobile-casa {
+    position: absolute;
+    left: 13.33%;
+    right: 81.33%;
+    top: 5.22%;
+    bottom: 92.27%;
+
+    background: #FFFFFF;
+    
+}
+
+.cabecalho__mobile-mensagem {
+    position: absolute;
+    left: 34.95%;
+    right: 58.63%;
+    top: 5.47%;
+    bottom: 92.47%;
+    background: #FFFFFF;
+}
+
+.cabecalho__logo-adopet {
+    
+
+    height: 917px;
+width: 360px;
+left: -12612px;
+top: -7986px;
+border-radius: 0px;
+
+
+}
+
+position: absolute;
+    width: 317px;
+    height: 875px;
+    left: auto;
+    top: -116px;
+
+
+footer {
+
+    /* retangulo verde do rodape MOBILE 
+    position: relative;
+    
+    color: var(--branco);
+    top: 860px;
+    text-align: center;
+    background: var(--verde)
+    padding-bottom: 65px;
+    padding-left: 65px;
+    
+}
+
+.rodape {
+    position: absolute;
+    width: 317px;
+    height: -30px;
+    left: 100px;
+    top: 900px;
+    color: var(--branco);
+    background: #36D6AD;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 900px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0em 0;
+    
+}
+
+*/

@@ -1,0 +1,57 @@
+.mobile_inicial {}
+
+
+
+.header__menu--mobile--inicial {
+   width: 0px;
+   height: auto;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: inline-block;
+}
+
+.nav {
+    display: inline-block;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: ;
+}
+
+.cabecalho__logo-adopet {
+    background-image: url(./img/Mobile-inicial.png);
+    background-repeat: no-repeat;
+   
+}
+.ul .menu {
+    display: flex;
+    align-items: center;
+}
+.menu__botoes {}
+
+.li .menu__botao--casa {}
+
+.li .menu__botao--mensagem {}
+
+/*
+.cabecalho {
+    width: 100px;
+    height: 100px;
+    background-image: url("./img/Mobile-inicial.png");
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__mobile-casa {
+    background-color: #36D6AD;
+    display: flex;
+    
+}
+
+.container {
+    background-color: #d636a3;
+}
+
+
+
+*/
