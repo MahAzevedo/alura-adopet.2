@@ -1,4 +1,6 @@
-@import url("styles/header.css");
+/* @import url("styles/header.css");
+@import url("styles/reset.css"); 
+*/
 
 :root {
     --azul: #3772FF;
@@ -9,96 +11,164 @@
     --cinza: #737380;
     --cinza-claro: #BCBCBC;
     --cinza-claro-fundos: #F7F7F7;
+
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
+    
 }
 
 body {
+    background-image: url('img/Vector 1.png'), url('img/Vector 4.png'), url('img/Forma_2.png');
+    background-repeat: no-repeat;
+    background-position: left top, left top ,right;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+.fundo__azul {
     background-color: var(--azul);
+}
+
+.cabecalho {
+    padding: 3em; /* 16px */
     
 }
+
+.cabecalho__imagem {
+    padding-right: 1em;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.conteudo__titulo {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+}
+
+.conteudo__paragrafo {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.conteudo__link {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
-.cabecalho {
-    position: relative;
-    top: -50px;
-    left: -10%;
-display: inline-block;
-}
 
-.cabecalho__mobile-casa {
-    position: absolute;
-    left: 13.33%;
-    right: 81.33%;
-    top: 5.22%;
-    bottom: 92.27%;
 
-    background: #FFFFFF;
-    
-}
-
-.cabecalho__mobile-mensagem {
-    position: absolute;
-    left: 34.95%;
-    right: 58.63%;
-    top: 5.47%;
-    bottom: 92.47%;
-    background: #FFFFFF;
-}
-
-.cabecalho__logo-adopet {
-    
-
-    height: 917px;
-width: 360px;
-left: -12612px;
-top: -7986px;
-border-radius: 0px;
-
+body {
+    background-color: var(--azul);
+    background-position: left;
 
 }
 
-position: absolute;
-    width: 317px;
-    height: 875px;
-    left: auto;
-    top: -116px;
 
 
-footer {
-
-    /* retangulo verde do rodape MOBILE 
-    position: relative;
-    
-    color: var(--branco);
-    top: 860px;
+.pagina__inicial--logo {
+    padding: 16px;
     text-align: center;
-    background: var(--verde)
-    padding-bottom: 65px;
-    padding-left: 65px;
-    
 }
+
+.menu__h1 {
+    color: var(--branco);
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu__p {
+    color: var(--branco);
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+}
+.container__menu--botao {
+    background-color: var(--coral);
+    color: var(--branco);
+    text-align: center;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    width: 13em;
+   align-items: center;
+ float: center;
+}
+
+
+
+
+
+
+  
+   
+   
+    
+   
+    
+
 
 .rodape {
-    position: absolute;
-    width: 317px;
-    height: -30px;
-    left: 100px;
-    top: 900px;
     color: var(--branco);
-    background: #36D6AD;
+    background-color: var(--verde);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 2em 1em;
+    position: relative;
+  
 }
 
-p {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 15px;
-    line-height: 900px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0em 0;
-    
+
+    /* tela responsiva 377 x 1063 
+@media screen and (min-width:320px) {  
+    body {
+        font-size: 16px;
+        padding: 36px;
+    }
+}
+
+/* tela tablet 768px x 1063 
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+
+    }
+}
+
+/* tela laptop 1024px x 1063 
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 18px;
+
+    }
 }
 
 */

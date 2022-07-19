@@ -1,57 +1,116 @@
-.mobile_inicial {}
 
 
 
-.header__menu--mobile--inicial {
-   width: 0px;
-   height: auto;
-   background-repeat: no-repeat;
-   background-position: center;
-   display: inline-block;
-}
 
-.nav {
-    display: inline-block;
-    justify-content: space-between;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: ;
-}
 
-.cabecalho__logo-adopet {
-    background-image: url(./img/Mobile-inicial.png);
-    background-repeat: no-repeat;
-   
-}
-.ul .menu {
-    display: flex;
-    align-items: center;
-}
-.menu__botoes {}
 
-.li .menu__botao--casa {}
 
-.li .menu__botao--mensagem {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
-.cabecalho {
-    width: 100px;
-    height: 100px;
-    background-image: url("./img/Mobile-inicial.png");
-    display: flex;
-    justify-content: space-between;
-}
 
-.cabecalho__mobile-casa {
-    background-color: #36D6AD;
-    display: flex;
+@import url("styles/header.css");
+
+.mobile_inicial {
+    padding: 16px;
+    position: relative; sera???
     
 }
 
-.container {
-    background-color: #d636a3;
+.header__menu--mobile--inicial {
+    background-position: left top;
+    padding: 14px;
+    flex-direction: row;
+    float: center;
+    text-align: relative; 
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 35%;
+    position: relative; 
+    align-items: row;
+}
+  
+.menu__casa--esquerda {
+    align-items: row; 
+    padding-inline: 10px;
+    position: relative;
+    
+}
+
+.menu__casa--direita {
+    padding-inline: 15px;
+    position: relative;
 }
 
 
+
+/* HTML - AQUI TÁ O MEU PROJETO DE HTML 
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Alura-adopet</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="rodape.css">
+</head>
+
+
+<body class="mobile_inicial">
+    <header class="header__menu--mobile--inicial"> 
+        <a class="menu__casa--esquerda" href="./img/Casa.png/casa.html"><img src="./img/Casa.png" alt="Página inicial"></a>
+        <a class="menu__casa--direita" href="./img/Mensagens.png/Mensagens.html"><img src="./img/Mensagens.png" alt="Mensagens"></a>
+    </header>
+       
+    <section class="pagina__inicial--logo">
+                <img src="./img/Logo.png" alt="Logo da AdoPet">
+                <h1 class="menu__h1">Boas-vindas!</h1>
+                <p class="menu__p">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
+       
+
+        <div class="container__menu--botao">
+
+            <button class="container__menu--botao" type="button">Já tenho conta</button>
+
+            <button class="container__menu--botao" type="button">Quero me cadastrar</button>
+        </div>       
+    </section>
+
+    <footer class="rodape">
+        <p>2022 - Desenvolvido por Mah Azevedo.</p> <!--depois fazer link com o meu nome-->
+    </footer>
+
+</body>
+</html>
 
 */
