@@ -18,29 +18,65 @@
 }
 
 body {
-    background-image: url('img/Vector 1.png'), url('img/Vector 4.png'), url('img/Forma_2.png');
+    background-image: url('img/Vector 1.png'), 
+                      url('img/Vector 4.png'), 
+                      url('img/Forma_2.png'), 
+                      url('img/Ilustracao.svg');
     background-repeat: no-repeat;
-    background-position: left top, left top ,right;
-    min-height: 100vh;
+    background-position: left top, left top , right, bottom 5.375em center, bottom  ;
+    min-height: 100vh; /* altura do rodape*/
     position: relative;
-
+    font-size: 16px;
 }
 
+/*
+.background-animais__imagem {
+    width: 20em;
+    height: 19em;
+    right: 3em;
+    position: relative;
+  /* margin-bottom: -15em;
+}
+  
+.background__Forma2 {
+    background-image: url('img/Forma_2.png');
+    background-repeat: no-repeat;
+    width: 20em;
+    height: 19em;
+    right: 3em;
+    background-position: right;
+    /as imagens estao q estao , eita/
+}
+*/
 .fundo__azul {
     background-color: var(--azul);
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
 }
-
+ 
 .cabecalho {
     padding: 3em; /* 16px */
-    
+  /*  border-left: 3%;
+    margin-right: 0em; */
 }
 
 .cabecalho__imagem {
     padding-right: 1em;
+    
 }
-
+ 
 .conteudo {
     text-align: center;
+    margin: 0 auto;
+    flex-grow: 1; /* com esse flex aqui neste projeto dá até pra deixar sem o grow */
+    width: 70%
+    
+   /* height: 100vh; ->essa altura nao serve neste caso pq ele é mobile e vh é fixo, onde estiver fica
+      width: 70%;
+      padding-bottom: 50vh;
+      margin: 0 auto; */
+   
 }
 
 .conteudo__titulo {
@@ -63,9 +99,57 @@ body {
 
 .conteudo__link {
     display: block;
+    margin: 0 auto 1em auto; 
+    padding: 0.5em;
+    width: 13em;
+    border-radius: 6px;
+    color: var(--branco);
+    background-color: var(--coral);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    text-decoration: none;
+
 }
 
+/*
+---> Isso aqui é resetar na mao mesmo
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;-> altera a forma de utulizar paddings e imagens
 
+}
+*/
+
+.rodape {
+    position: relative;
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    background-color: var(--verde);
+    text-align: center;
+    padding: 0.1em; /* colocar 3em em media query telas maiores*/
+    
+    
+}
+
+.rodape__texto {
+    line-height: 6em;
+  /*  text-align: center;
+    align-items: center;  */
+}
+  
+     
+      /* tela responsiva 377 x 1063  */
+@media screen and (min-width:377px) {  
+    body {
+        font-size: 16px;
+        padding: 3em;
+       
+        
+    } margin: 0, 0, 0, 0;
+    
+}  
 
 
 
