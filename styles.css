@@ -16,38 +16,28 @@
     --fonte-secundaria: 'IBM Plex Sans', sans-serif;
     
 }
-
+url('img/Ilustracao.svg'),
 body {
     background-image: url('img/Vector 1.png'), 
                       url('img/Vector 4.png'), 
-                      url('img/Forma_2.png'), 
-                      url('img/Ilustracao.svg');
+                      url('img/Ilustração1.png'), /*caramba eu super quebrei essa img e afundei as outras no buraco*/
+                      url('img/Forma_2.png'); 
     background-repeat: no-repeat;
-    background-position: left top, left top , right, bottom 5.375em center, bottom  ;
+    background-position: left top , left top, bottom 5.375em center , right ;
+    background-size: 20em 20em 4em 0;
+   
     min-height: 100vh; /* altura do rodape*/
     position: relative;
     font-size: 16px;
+    display: grid;
+    grid-template-areas: 
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto;
 }
 
-/*
-.background-animais__imagem {
-    width: 20em;
-    height: 19em;
-    right: 3em;
-    position: relative;
-  /* margin-bottom: -15em;
-}
-  
-.background__Forma2 {
-    background-image: url('img/Forma_2.png');
-    background-repeat: no-repeat;
-    width: 20em;
-    height: 19em;
-    right: 3em;
-    background-position: right;
-    /as imagens estao q estao , eita/
-}
-*/
 .fundo__azul {
     background-color: var(--azul);
     display: flex;
@@ -138,21 +128,34 @@ body {
   /*  text-align: center;
     align-items: center;  */
 }
-  
+ /*
+.forma__lateral {
+
+}
+
      
-      /* tela responsiva 377 x 1063  */
+      /* tela responsiva 377 x 1063  
 @media screen and (min-width:377px) {  
     body {
         font-size: 16px;
         padding: 3em;
-       
-        
-    } margin: 0, 0, 0, 0;
+        margin: 0, 0, 0, 0;
     
+    }
+    .forma__lateral {
+        width: 10%;
+        height: 12%;
+        background-image: url('img/Forma_2.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        
+        position: relative;
+        font-size: 10px;
+    }
 }  
+min-height: 100vh; /* altura do rodape
 
-
-
+*/
 
 
 
