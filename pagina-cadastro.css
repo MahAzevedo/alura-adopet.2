@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body {
+    background-color: var(--cinza);
+    text-align: center;
+    align-items: center;
+    background-image:url('img/Vector 1.png'), 
+                     url('img/Vector 4.png');
+    background-repeat: no-repeat;
+    display: block
+}
+
+.cabecalho {
+    padding: 2.2em;
+    padding-left: em;
+}
+
+
+.cadastro-imagem-header-lateral__patas {
+    background-image: url('img/Patas.png');
+    background-position: top right;
+
+} 
+
+
+
+
+
+/*body
+.pagina__cadastro {
+    background-color: var(--cinza);
+    margin: 0 0 0 0;
+    min-height: 100vh;
+    font-family: var(--fonte-principal);
+    text-decoration: none; 
+
+}
+
+/* header - casa mensagem patas 
+.cabecalho__cadastro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("img/Vector 1.png"), url("img/Vector 4.png");
+    background-repeat: no-repeat;
+    background-position: top left, top left; 
+} 
+
+.cadastro-imagem__header {
+    padding-left: 3em;
+}
+
+/* conteudo - section
+
+.conteudo__cadastro {
+    text-align: center;
+}
+
+.conteudo-cadastro__paragrafo {
+    color: var(--branco);
+}
+
+/* SECTION FORMULARIO 
+
+.formulario-conteudo__cadastro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+   flex-wrap: wrap;
+}
+.container-formulario__cadastro::placeholder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+formulario-cadastro-botao__lista
+
+/* DIV imagem lateral onda esquerda 
+
+.conteudo-cadastro-logo__lateral 
+   
+
+
+/* RODAPE ja tem no styles*/

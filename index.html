@@ -1,45 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site desenvolvido para adoção de pets por petlovers">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>AdoPet</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="./pagina-inicial.css">
+    <link rel="stylesheet" href="./pagina-cadasto.html"> <!--quebrei R-->
+    <link rel="stylesheet" href="./pagina-cadasto.css"> <!--quebrei R-->
+
+    <title>AdoPet - Página Inicial</title>
     
 </head>
 
-<body class="fundo__azul"> <!--nada mais que o background-color do site-->
+<body class="background__inicial"> 
     
     <header class="cabecalho">
         <a href="#"> <img src="img/Casa.png" alt="Página Inicial" class="cabecalho__imagem"></a>
         <a href="#"> <img src="img/Mensagens.png" alt="Caixa de Mensagens" class="cabecalho__imagem"></a>
     </header>
 
-    <main class="conteudo">
-        <img src="img/Logo.png" alt="Logo AdoPet">
-        <h1 class="conteudo__titulo">Boas-vindas!</h1>
-        <p class="conteudo__paragrafo">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
-        <a class="conteudo__link">Já tenho conta</a>
-        <a class="conteudo__link">Quero me cadastrar</a>
-       
-       <!--<button class="conteudo__link"></button>-->
+    <main class="conteudo"> 
+        <div>
+             <img class="conteudo__logo" src="img/Logo.png" alt="Logo AdoPet" class="conteudo-logo__adopet"> 
+        </div>
+
+       <section>
+            <h1 class="conteudo__titulo">Boas-vindas!</h1>
+            <p class="conteudo__paragrafo">Que tal mudar sua vida adotando seu novo melhor amigo?<br> Vem com a gente!</p>
+            
+            <ul class="conteudo--link__botoes">
+                <li class="conteudo__botao"><a href="#">Já tenho conta</a></li>
+                <li class="conteudo__botao"><a href="#">Quero me cadastrar</a></li>
+            </ul>
+           
+            
+       </section>
         
-       <!--<div>
-        <img src="img/Forma_2.pg" alt="forma__lateral" class="forma__lateral">
-       </div>-->
-      <picture>
-        <sourse srcset="img/Forma_2.png" media="(max-width: 10em)">
-      </picture> 
-    
     </main>
 
     
      <footer class="rodape">
-        <p class="rodape__texto">2022 - Desenvolvido por Mah Azevedo.</p>
+        <p class="rodape__texto">2022 - Desenvolvido por ...</p>
     </footer>
 
 </body>

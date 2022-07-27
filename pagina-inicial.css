@@ -1,0 +1,160 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+*/
+
+
+/*
+rodrigocolucci — 20/07/2022
+@sucodelarangela nao acredito que a partir do mobile-first é só mudar o flex direction pra row, 
+colocar um wrap que ja aparece os cards ate no desktop 🤣 e eu fazendo o desktop inteiro hoje 
+com flexbox e grid kkkkkkk bom que pratiquei mais!! 
+
+FabioS — 20/07/2022
+Vdd 😁😁😁
+Adicionando neste código vc pode até usar a matemática,  se colocar os cards com o witdh: 360px, os cards aparecerão do seguinte modo, nas telas:
+Menor que  720px - 1 coluna
+Entre 720px a 1080px - 2 colunas
+Entre 1080 a 1440 - 3 colunas
+Assim por diante, muito show
+sucodelarangela — 20/07/2022
+Se teu elemento pai tiver com flex, só felicidade kkkkkk
+É que fiz com grid e respondi no automático kkkkkk
+
+*/
+
+body {
+    background-image: url('img/Vector 1.png'), 
+                      url('img/Vector 4.png'), 
+                      url('img/Ilustracao 1.png'),
+                      url('img/Forma 2.png'); 
+    background-repeat: no-repeat;
+    background-position: left top , left top, bottom 5.375em center , right ;
+    background-size: 20em 20em 4em 0;
+    min-height: 100vh; /* altura do rodape*/
+    position: relative;
+    font-size: 16px;
+   
+    line-height: 1;
+}
+
+.background__inicial {  
+    background-color: var(--azul);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-principal);
+}
+ 
+.cabecalho {
+    padding: 3em; 
+}
+
+.cabecalho__imagem {  /*casa e mensagem*/
+    padding-right: 3em;
+    
+}
+ 
+.conteudo {
+    text-align: center;
+    margin: 0 auto;
+    flex-grow: 1; 
+    width: 70%
+}
+  
+.conteudo-logo__adopet {
+    padding-top: 2.2em;
+}
+ 
+.conteudo__titulo {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+    padding: 0.7em;
+    font-size: 25px;
+    line-height: 10px;
+}
+
+.h1 {
+    font-weight: 400px;
+    padding-top: 16px;
+}
+
+.conteudo__paragrafo {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    line-height: 24px; 
+    padding: 2em auto 5em auto;   
+}
+
+.conteudo__botao {
+    display: block;
+    margin: 1em auto 1em auto; 
+    padding: 0.8em;
+    width: 11em;
+    height: 1em;
+    border-radius: 6px;
+    background-color: var(--coral);
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25)); 
+    box-shadow: 2px 2px 4px 0px #00000040;
+}
+
+.conteudo__botao a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.conteudo__paragrafo p {
+    margin-top: 16px auto 16px auto;
+    text-align: center;
+}
+
+.rodape {
+    position: relative;
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-size: 17px;
+    background-color: var(--verde);
+    text-align: center;
+    padding: 0.1em; /* colocar 3em em media query telas maiores*/   
+}
+
+.rodape__texto {
+    line-height: 4em;
+    font-family: var(--fonte-principal);
+}
+
+@media screen and (min-width:377px) {
+    .conteudo {
+        text-align: center;
+       /* display: flex;
+        flex-wrap: wrap;   "desquebra" botoes no tablet*/
+    }
+
+    .conteudo__logo {
+        padding-top: 2.2em;
+    }
+
+    .conteudo__titulo {
+        padding: 0.7em;
+        font-size: 25px;
+        line-height: 10px;
+    }
+
+    .conteudo__paragrafo {
+        margin-top: 16px auto 16px auto;
+        text-align: center;
+    }
+
+    .conteudo__botao {
+        display: block;
+        margin: 1em auto 1em auto; 
+        padding: 0.8em;
+        width: 11em;
+        height: 1em;
+    }
+
+}
