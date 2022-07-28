@@ -8,25 +8,6 @@
 */
 
 
-/*
-rodrigocolucci — 20/07/2022
-@sucodelarangela nao acredito que a partir do mobile-first é só mudar o flex direction pra row, 
-colocar um wrap que ja aparece os cards ate no desktop 🤣 e eu fazendo o desktop inteiro hoje 
-com flexbox e grid kkkkkkk bom que pratiquei mais!! 
-
-FabioS — 20/07/2022
-Vdd 😁😁😁
-Adicionando neste código vc pode até usar a matemática,  se colocar os cards com o witdh: 360px, os cards aparecerão do seguinte modo, nas telas:
-Menor que  720px - 1 coluna
-Entre 720px a 1080px - 2 colunas
-Entre 1080 a 1440 - 3 colunas
-Assim por diante, muito show
-sucodelarangela — 20/07/2022
-Se teu elemento pai tiver com flex, só felicidade kkkkkk
-É que fiz com grid e respondi no automático kkkkkk
-
-*/
-
 body {
     background-image: url('img/Vector 1.png'), 
                       url('img/Vector 4.png'), 
