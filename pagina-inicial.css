@@ -1,14 +1,8 @@
-/*
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-*/
-
-
-body {
+.background__inicial {  
+    background-color: var(--azul);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-principal);
     background-image: url('img/Vector 1.png'), 
                       url('img/Vector 4.png'), 
                       url('img/Ilustracao 1.png'),
@@ -16,25 +10,17 @@ body {
     background-repeat: no-repeat;
     background-position: left top , left top, bottom 5.375em center , right ;
     background-size: 20em 20em 4em 0;
-    min-height: 100vh; /* altura do rodape*/
+    min-height: 100vh; 
     position: relative;
     font-size: 16px;
-   
     line-height: 1;
 }
 
-.background__inicial {  
-    background-color: var(--azul);
-    display: flex;
-    flex-direction: column;
-    font-family: var(--fonte-principal);
-}
- 
 .cabecalho {
-    padding: 3em; 
+   padding: 3em; 
 }
 
-.cabecalho__imagem {  /*casa e mensagem*/
+.cabecalho__imagem {  
     padding-right: 3em;
     
 }
@@ -44,6 +30,8 @@ body {
     margin: 0 auto;
     flex-grow: 1; 
     width: 70%
+    
+    
 }
   
 .conteudo-logo__adopet {
@@ -100,7 +88,7 @@ body {
     font-size: 17px;
     background-color: var(--verde);
     text-align: center;
-    padding: 0.1em; /* colocar 3em em media query telas maiores*/   
+    padding: 0.1em; 
 }
 
 .rodape__texto {
@@ -111,8 +99,6 @@ body {
 @media screen and (min-width:377px) {
     .conteudo {
         text-align: center;
-       /* display: flex;
-        flex-wrap: wrap;   "desquebra" botoes no tablet*/
     }
 
     .conteudo__logo {
