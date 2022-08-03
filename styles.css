@@ -1,8 +1,5 @@
-@import url(./styles/reset.css); 
-@import url(./pagina-inicial.css);
+@import url('./reset.css');
 
-
-                                       
 :root {
     --azul: #3772FF;
     --verde: #36D6AD;
@@ -15,25 +12,23 @@
     --fonte-principal: 'Poppins', sans-serif;
     --fonte-secundaria: 'IBM Plex Sans', sans-serif;
     --cinza-placeholder: #BCBCBC;  
+    --background-image-1: url('img/Vector 1.png'); 
+    --background-image-2: url('img/Vector 4.png'); 
+    --background-image-3: url('img/Ilustracao 1.png');
+    --background-image-4: url('img/Forma 2.png');
+    --background-image-5: url('img/Patas.png'); 
 }
 
 body {
-    background-image: url('img/Vector 1.png'), 
-                      url('img/Vector 4.png'), 
+    background-image: var('--background-image-1'),
+                      var('--background-image-2');
     background-repeat: no-repeat;
-    background-position: left top , left top, bottom 5.375em center , right ;
-    background-size: 20em 20em 4em 0;
+    background-position: left top , left top, bottom 5.375em center;
+    background-size: 20em 20em 4em; /*tirei um zero daqui, depois do 4em*/
     min-height: 100vh; 
     position: relative;
     font-size: 16px;
     line-height: 1;
-}
-
-.background__inicial {  
-    background-color: var(--azul);
-    display: flex;
-    flex-direction: column;
-    font-family: var(--fonte-principal);
 }
  
 .cabecalho {
@@ -42,22 +37,6 @@ body {
 
 .cabecalho__imagem { 
     padding-right: 3em; 
-}
- 
-.conteudo {
-    text-align: center;
-    margin: 0 auto;
-    flex-grow: 1; 
-    width: 70%
-}
- 
-.conteudo__titulo {
-    color: var(--branco);
-    font-family: var(--fonte-secundaria);
-    text-decoration: none;
-    padding: 0.7em;
-    font-size: 25px;
-    line-height: 10px;
 }
 
 .rodape {
@@ -82,38 +61,20 @@ body {
     
     .cabecalho__imagem { 
         padding-right: 3em; 
-    }
+    } 
      
-    .conteudo {
+    .rodape {
+        position: relative;
+        color: var(--branco);
+        font-family: var(--fonte-secundaria);
+        font-size: 17px;
+        background-color: var(--verde);
         text-align: center;
-        margin: 0 auto;
-        flex-grow: 1; 
-        width: 70%
-
+        padding: 0.1em; 
+    }
+    
+    .rodape__texto {
+        line-height: 4em;
+        font-family: var(--fonte-principal);
     }
 }
-
-
-/*
-. 
-@media screen and (min-width: 377px) {  
-    body {
-        font-size: 16px;
-        padding: 3em;
-        margin: 0, 0, 0, 0;
-    }
-
-    .background__inicial {
-        display: inline;
-        width: 7em;
-    }
-
-    .conteudo__titulo {
-        font-size: 28px;
-    }
-
-    .conteudo__link {
-        width: 12em;
-    }
-}
-*/

@@ -1,0 +1,123 @@
+@import url('./styles.css');
+
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+    /* text-decoration: none; */
+    size: 100%
+}
+
+.pagina__login {
+    background-color: var(--cinza);
+    font-family: var(--fonte-principal);
+    
+  
+}
+
+    
+
+.login__cabecalho {
+    /* padding: 3.2em; */
+    /* padding-left: 2em */
+    /* display: inline-flex;  */
+  
+   /* padding: 0; */
+   
+   
+}
+
+/* .login__navegacao {
+    margin: 0px;
+} */
+
+.login-navegacao__lista {
+    display: inline-flex;
+    gap: 3.2em, 2em, 7em;
+    /* padding: 3.2em; */
+    /* background-position: 3.2em, 2em, 6em; */
+}
+
+
+.login-lateral__patas {
+   background-position: 16em;
+}
+
+
+.login__imagem {
+    padding: 3.2em;
+    padding-left: 2em
+    /* padding: 3em */
+}
+
+
+    
+.login-paragrafo__texto {
+    text-align: center;
+    color: var(--branco);
+    padding: 1em;
+}
+
+.login-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.login-formulario_cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cinza-claro);
+    border-radius: 5px;
+    padding: 0.5em;
+ 
+     
+}
+
+.login-formulario_cadastro::placeholder {
+    text-align: center;
+    align-items: center;
+    color: var(--cinza);
+    /* padding: 1em; */
+  
+}
+
+.login-esqueci__senha {
+    text-align: center;
+    align-items: center;
+    /* text-decoration: underline; */
+    padding: 0.3px;
+}
+
+.login-esqueci-senha__texto {
+    color: var(--coral);
+    /* text-decoration: underline;  */
+    /* padding: auto 3em auto 3em; */
+}
+
+.login-formulario__botao {
+    color: var(--coral);
+    text-align: center;
+}
+
+.login-botao__cadastro {
+    color: var(--branco );
+    text-decoration: none;
+}
+
+.login-botao__cadastro {
+    padding: 1em 3em;
+    border-radius: 6px;
+    background-color: var(--coral);
+    size: 2em;
+    position: relative;
+}
+
+.conteudo-login-forma__lateral {
+    padding-bottom: 4em;
+}
+
+@media screen and (min-width: 377px) {
+   

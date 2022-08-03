@@ -1,4 +1,6 @@
-.background__inicial {  
+@import url('./styles.css');
+
+.pagina__inicial {  
     background-color: var(--azul);
     display: flex;
     flex-direction: column;
@@ -6,32 +8,29 @@
     background-image: url('img/Vector 1.png'), 
                       url('img/Vector 4.png'), 
                       url('img/Ilustracao 1.png'),
-                      url('img/Forma 2.png'); 
-    background-repeat: no-repeat;
+                      url('img/Forma 2.png'); /*aumentar onda lateral*/
+    /* background-repeat: no-repeat; */
     background-position: left top , left top, bottom 5.375em center , right ;
-    background-size: 20em 20em 4em 0;
-    min-height: 100vh; 
-    position: relative;
-    font-size: 16px;
-    line-height: 1;
+    /* background-size: 20em 20em 4em 0; */
+    /* min-height: 100vh;  */
+    /* position: relative;  */
+    /* font-size: 16px; */
+    /* line-height: 1; */
 }
 
 .cabecalho {
-   padding: 3em; 
+   padding: 3em;
+}
+  
+.cabecalho__imagem {  
+    padding-right: 3em;  
 }
 
-.cabecalho__imagem {  
-    padding-right: 3em;
-    
-}
- 
 .conteudo {
     text-align: center;
     margin: 0 auto;
     flex-grow: 1; 
     width: 70%
-    
-    
 }
   
 .conteudo-logo__adopet {
@@ -81,7 +80,7 @@
     text-align: center;
 }
 
-.rodape {
+/* .rodape {
     position: relative;
     color: var(--branco);
     font-family: var(--fonte-secundaria);
@@ -94,9 +93,17 @@
 .rodape__texto {
     line-height: 4em;
     font-family: var(--fonte-principal);
-}
+} */
 
 @media screen and (min-width:377px) {
+    /* .cabecalho {
+        padding: 3em; 
+    }
+    
+    .cabecalho__imagem { 
+        padding-right: 3em; 
+    } */
+    
     .conteudo {
         text-align: center;
     }
