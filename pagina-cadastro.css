@@ -6,29 +6,20 @@
     text-decoration: none; 
 } */
 
-.pagina__cadastro {
+.pagina__adopet {
     background-color: var(--cinza);
     background-image: url('img/Vector 1.png'), 
-                      url('img/Vector 4.png');
-    background-repeat: no-repeat;
-    background-position: left top , left top, bottom 5.375em center;
-    background-size: 20em 20em 4em 0;
-    min-height: 100vh; 
-    position: relative;
-    font-size: 16px;
-    line-height: 1;
+                      url('img/Vector 4.png'),
+                      url('img/Patas.png');
+                      /* url('img/Forma 2e.png'); */
+    background-position: left top, left top, top right; /*left center;*/  
+    /* transform: 0, 0, 0, matrix(-1, 0, 0, 1, 0, 0);               */
 }
 
-.cabecalho_cadastro {
-    padding: 3em; /*3.2em*/
-    padding-left: 2em;
-    background-image: url('img/Patas.png'); 
-    background-repeat: no-repeat;
-    background-position: top right;
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
-    line-height: 1em; 
+.conteudo-cadastro-forma__lateral {
+    background-position: 0, 0, 0, left center;
+    padding-bottom: 2em;
+    transform: 0, 0, 0, matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .conteudo__cadastro {
@@ -58,9 +49,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
-
-
 }
 
 .formulario-conteudo-cadastro__placeholder {
@@ -107,6 +95,7 @@
    width: 11em;
    /* height: 3em; */
    text-align: center;
+   text-decoration: none;
 }
 
 .conteudo-cadastro-forma__lateral {
@@ -120,9 +109,9 @@
 
 
 
-/*
+
 @media screen and (min-width: 377px) {
-    .conteudo-cadastro__paragrafo {
+   /* .conteudo-cadastro__paragrafo {
         color: var(--branco);
         font-family: var(--fonte-principal);
         padding: 0.1px;
@@ -150,5 +139,14 @@
         flex-direction: column;
        background-position: center;
        
-    }  
-}
+    }  */
+    .pagina__adopet {
+        background-color: var(--cinza);
+        background-image: url('img/Vector 1.png'), 
+                          url('img/Vector 4.png'),
+                          url('img/Patas.png');
+                          /* url('img/Forma 2e.png'); */
+        background-position: left top, left top, top right, /*left center*/;  
+        /* transform: 0, 0, 0, matrix(-1, 0, 0, 1, 0, 0);               */
+    }
+} 

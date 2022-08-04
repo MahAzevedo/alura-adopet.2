@@ -29,6 +29,7 @@ body {
     position: relative;
     font-size: 16px;
     line-height: 1;
+    font-family: var(--fonte-principal);
 }
  
 .cabecalho {

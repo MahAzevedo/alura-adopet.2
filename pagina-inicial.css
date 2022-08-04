@@ -1,6 +1,6 @@
 @import url('./styles.css');
 
-.pagina__inicial {  
+.pagina__adopet {  
     background-color: var(--azul);
     display: flex;
     flex-direction: column;
@@ -9,21 +9,7 @@
                       url('img/Vector 4.png'), 
                       url('img/Ilustracao 1.png'),
                       url('img/Forma 2.png'); /*aumentar onda lateral*/
-    /* background-repeat: no-repeat; */
-    background-position: left top , left top, bottom 5.375em center , right ;
-    /* background-size: 20em 20em 4em 0; */
-    /* min-height: 100vh;  */
-    /* position: relative;  */
-    /* font-size: 16px; */
-    /* line-height: 1; */
-}
-
-.cabecalho {
-   padding: 3em;
-}
-  
-.cabecalho__imagem {  
-    padding-right: 3em;  
+    background-position: left top , left top, bottom 5.375em center , right;
 }
 
 .conteudo {
@@ -37,25 +23,25 @@
     padding-top: 2.2em;
 }
  
-.conteudo__titulo {
+.conteudo-cabecalho__texto {
     color: var(--branco);
     font-family: var(--fonte-secundaria);
     text-decoration: none;
+}
+
+.conteudo__titulo {
     padding: 0.7em;
     font-size: 25px;
     line-height: 10px;
-}
-
-.h1 {
     font-weight: 400px;
     padding-top: 16px;
 }
 
 .conteudo__paragrafo {
-    color: var(--branco);
-    font-family: var(--fonte-principal);
     line-height: 24px; 
-    padding: 2em auto 5em auto;   
+    padding: 2em auto 5em auto;  
+    margin-top: 16px auto 16px auto;
+    text-align: center;
 }
 
 .conteudo__botao {
@@ -75,31 +61,11 @@
     color: var(--branco);
 }
 
-.conteudo__paragrafo p {
-    margin-top: 16px auto 16px auto;
-    text-align: center;
-}
-
-/* .rodape {
-    position: relative;
-    color: var(--branco);
-    font-family: var(--fonte-secundaria);
-    font-size: 17px;
-    background-color: var(--verde);
-    text-align: center;
-    padding: 0.1em; 
-}
-
-.rodape__texto {
-    line-height: 4em;
-    font-family: var(--fonte-principal);
-} */
-
 @media screen and (min-width:377px) {
-    /* .cabecalho {
+    .cabecalho {
         padding: 3em; 
     }
-    
+    /*
     .cabecalho__imagem { 
         padding-right: 3em; 
     } */

@@ -8,35 +8,24 @@
     size: 100%
 }
 
-.pagina__login {
+.pagina__adopet {
     background-color: var(--cinza);
-    font-family: var(--fonte-principal);
-    
-  
+    /* font-family: var(--fonte-principal); */
+    background-color: var(--cinza);
+    background-color: var(--cinza);
+    background-image: url('img/Vector 1.png'), 
+                      url('img/Vector 4.png'),
+                      url('img/Patas.png');
+    background-position: left top, left top, top right; 
 }
 
-    
 
-.login__cabecalho {
-    /* padding: 3.2em; */
-    /* padding-left: 2em */
-    /* display: inline-flex;  */
-  
-   /* padding: 0; */
-   
-   
+.conteudo-cadastro-forma__lateral {
+    background-position: 0, 0, 0, left center;
+    padding-bottom: 2em;
+    transform: 0, 0, 0, matrix(-1, 0, 0, 1, 0, 0);
 }
 
-/* .login__navegacao {
-    margin: 0px;
-} */
-
-.login-navegacao__lista {
-    display: inline-flex;
-    gap: 3.2em, 2em, 7em;
-    /* padding: 3.2em; */
-    /* background-position: 3.2em, 2em, 6em; */
-}
 
 
 .login-lateral__patas {
